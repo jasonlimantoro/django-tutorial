@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i polls/static/polls/style.css -o polls/static/polls/output.css"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.12",
+    "tailwindcss": "^4.0.12"
+  }
+}
