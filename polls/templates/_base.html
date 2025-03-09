@@ -9,10 +9,11 @@
         <meta name="description" content="My Site">
         <meta name="keywords" content="site">
     </head>
-    <body>
-        <main>
+    <body class="bg-gray-900 flex flex-col items-center justify-center">
+        <main class="flex flex-col gap-4 items-center justify-center max-w-[600px]">
             {% block content %}
             {% endblock content %}
         </main>
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     </body>
 </html>
